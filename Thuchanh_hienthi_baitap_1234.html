@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ham_alert</title>
+</head>
+<body>
+<!--bai tap 1-->
+<button type="button" onclick="baitap1();">Bai Tap 1</button>
+<br>
+<br>
+<div id="messageDiv"></div>
+<button type="button" onclick="baitap2();">Bai Tap 2</button>
+<br>
+<br>
+<button type="button" onclick="baitap3();">Bai Tap 3</button>
+<br>
+<br>
+<button type="button" onclick="baitap4();">Bai Tap 4</button>
+<script>
+    function baitap1(){
+        alert('Xin chào!');
+    }
+    function baitap2(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+    }
+    function baitap3(){
+        document.write('Xin chào!');
+    }
+
+    function baitap4(){
+        console.log('Xin chào!');
+    }
+</script>
+</body>
+</html>
